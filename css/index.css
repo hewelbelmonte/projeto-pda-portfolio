@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* config. generalizada */
+body{padding: 0;margin: 0;background: url('https://i.pinimg.com/564x/8e/b0/5b/8eb05b3f37891e9b40d3f495b0f1637e.jpg');background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
+
+/* config. generalizada */
+h1,h2,h3,h4,h5,h6,li{font-family: 'Montserrat', serif;font-weight: bolder;}
+p{font-family: 'Playfair Display', sans-serif;}
+hr{width: 100px; text-align: left;}
+img{width: 30vw;border-radius: 3px;}
+
+/* header */
+header{padding: 20px;margin: 0;background-color: #752715;color: white;font-family: 'Montserrat', sans-serif;font-weight: 900;font-size: 1.5rem;display: flex;justify-content: space-between;align-items: center;}
+header h1, header p{padding: 0;margin: 0;}
+
+/* botão */
+button{padding: 15px;margin-right: 10px;background-color: #00000000;color:rgb(255, 255, 255);border: 1px solid white;border-radius: 3px;font-family: 'Montserrat', sans-serif;font-size: .8rem;font-weight: bolder;}
+button:hover{text-transform:lowercase; transition: 0.3;}
+
+/* navegação */
+nav ul{padding: 10px; margin: auto; margin-top: 40px;border-radius: 3px;display: flex; justify-content: space-around;list-style: none; width: 70vw;color: black;}
+nav ul li a{color: white;text-decoration: none;}
+nav ul li a:visited{color: white;text-decoration: none;}
+nav ul li a:hover{color: #752715;}
+
+/* config. generalizada */
+main{padding: 10px;margin-top: 40px;background-color: #752715;}
+
+/* container 1 */
+#container-img1-text1{display: flex; justify-content: space-evenly; margin-top: 200px; gap: 10px;color: rgb(255, 255, 255);}
+#container-img1-text1 p{text-align: justify;}
+
+/* container 2 */
+#container-img2-text2{display: flex; justify-content: space-evenly; gap: 10px;color: rgb(255, 255, 255);margin-top: 500px;}
+#container-img2-text2 p{text-align: justify;}
+
+/* container 3 */
+#container-img3-text3{display: flex; justify-content: space-evenly; gap: 10px;color: rgb(255, 255, 255);margin-top: 200px;}
+#container-img3-text3 p{text-align: justify;}
+#container-img3-text3 ul{padding: 20px;margin-top: 40px; text-align: justify;}
+#container-img3-text3 ul li{list-style-type: square; text-align: justify;}
+
+/* container 4 */
+#container-img4-text4{display: flex; justify-content: space-evenly; gap: 10px;color: rgb(255, 255, 255);margin-top: 400px;margin-bottom: 120px;}
+#container-img4-text4 p{text-align: justify;}
+footer{padding: 20px;color: white;text-align: center;}
